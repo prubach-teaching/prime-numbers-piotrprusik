@@ -7,7 +7,6 @@ public class PrimeNumbers {
 
         int count = 0;
 
-      
 
                 for (int i = 2; i <= 100000; i++)
                 {
@@ -30,7 +29,7 @@ public class PrimeNumbers {
                         {
                             if (j == i)
                             {
-                                System.out.print(i+" ");
+                                System.out.print(i+"\\n");
                                 count=count+1;
                             }
                         }
