@@ -7,6 +7,8 @@ public class PrimeNumbers {
 
         int count = 0;
 
+        System.out.print("n = "+n+" ");
+
                 for (int i = 2; i <= 100000; i++)
                 {
 
@@ -46,7 +48,7 @@ public class PrimeNumbers {
 
 
   public static void main(String[] args) {
-        primes(8);
+        primes(4);
     }
 
 }
