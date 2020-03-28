@@ -3,8 +3,7 @@ package sgh;
 public class PrimeNumbers {
 
     public static void primes(int n) {
-        int n = 4;
-
+        
                 for(int i=2;i<=n;i++)
                 {
                     for(int j=2;j<=i;j++)
