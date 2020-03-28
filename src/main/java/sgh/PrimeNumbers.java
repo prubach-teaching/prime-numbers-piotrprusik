@@ -12,18 +12,31 @@ public class PrimeNumbers {
 
                     for (int j = 2; j <= i; j++)
                     {
-
-                        if (j == i)
+                        if (count != n-1)
                         {
-                            System.out.print(i + ", ");
-                            count=count+1;
+                            if (j == i)
+                            {
+                                System.out.print(i + ", ");
+                                count=count+1;
+                            }
+                            if (i % j == 0)
+                            {
+                                break;
+                            }
                         }
-                        if (i % j == 0)
+                        if (count == n-1)
                         {
-                            break;
+                            if (j == i)
+                            {
+                                System.out.print(i);
+                                count=count+1;
+                            }
                         }
-
-                    }
+                            if (i % j == 0)
+                            {
+                                break;
+                            }
+                        }
                     if (count == n)
                     {
                         break;
@@ -32,7 +45,6 @@ public class PrimeNumbers {
     }
 
 
-    
   public static void main(String[] args) {
         primes(4);
     }
