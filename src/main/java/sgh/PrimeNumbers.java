@@ -20,6 +20,9 @@ public class PrimeNumbers {
                     }
                 }
     }
-  
+    
+  public static void main(String[] args) {
+        primes(4);
+    }
 
 }
