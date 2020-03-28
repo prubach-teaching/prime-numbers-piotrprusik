@@ -2,7 +2,7 @@ package sgh;
 
 public class PrimeNumbers {
 
-    public static void primes(int n)
+   public static void primes(int n)
     {
 
         int count = 0;
@@ -29,7 +29,7 @@ public class PrimeNumbers {
                         {
                             if (j == i)
                             {
-                                System.out.print(i+"\\n");
+                                System.out.print(i+"\n");
                                 count=count+1;
                             }
                         }
@@ -44,6 +44,8 @@ public class PrimeNumbers {
                     }
                 }
     }
+
+
 
 
   public static void main(String[] args) {
