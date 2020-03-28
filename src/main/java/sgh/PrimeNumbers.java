@@ -29,7 +29,7 @@ public class PrimeNumbers {
                         {
                             if (j == i)
                             {
-                                System.out.print(i+"\\n");
+                                System.out.print(i+"\\n ");
                                 count=count+1;
                             }
                         }
